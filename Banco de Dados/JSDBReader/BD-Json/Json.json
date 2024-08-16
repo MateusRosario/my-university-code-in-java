@@ -1,0 +1,458 @@
+{
+  "POGGERSTV": {
+    "Usuarios": {
+      "Usuario": [
+        {
+          "idade": "19",
+          "nome": "Matheus Almeida",
+          "sexo": "M",
+          "senha": "654321",
+          "email": "matheus@gmail.com"
+        },
+        {
+          "idade": "18",
+          "nome": "Mateus rosario",
+          "sexo": "M",
+          "senha": "654321",
+          "email": "rosario@gmail.com"
+        },
+        {
+          "idade": "150",
+          "nome": "Albus Dumbledore",
+          "sexo": "M",
+          "senha": "harry123",
+          "email": "albuss@grifmail.com"
+        },
+        {
+          "idade": "23",
+          "nome": "Maria Eduarda",
+          "sexo": "F",
+          "senha": "543534",
+          "email": "duda123@gmail.com"
+        },
+        {
+          "idade": "17",
+          "nome": "Rafaela santos",
+          "sexo": "F",
+          "senha": "654334321",
+          "email": "santos@gmail.com"
+        },
+        {
+          "idade": "12",
+          "nome": "Gabriel oliveira",
+          "sexo": "M",
+          "senha": "suasenha33",
+          "email": "gabriel2018@hotmail.com"
+        },
+        {
+          "idade": "34",
+          "nome": "Ricardo Souza",
+          "sexo": "M",
+          "senha": "ourilandia3322",
+          "email": "ricardo@gmail.com"
+        },
+        {
+          "idade": "26",
+          "nome": "Julia Alencar",
+          "sexo": "F",
+          "senha": "julia2015",
+          "email": "julia@gmail.com"
+        },
+        {
+          "idade": "15",
+          "nome": "Rafael silva",
+          "sexo": "M",
+          "senha": "12345679",
+          "email": "rafaextreme@gmail.com"
+        },
+        {
+          "idade": "20",
+          "nome": "Alexandre Ottoni",
+          "sexo": "M",
+          "senha": "labdalabda",
+          "email": "jovemnerd@hotmail.com"
+        }
+      ]
+    },
+    "assistidos": {
+      "assistido": [
+        {
+          "serie_assistida": "2",
+          "tempo": "2:00:00",
+          "avaliacao": "4",
+          "usuario": "matheus@gmail.com",
+          "ID_assistido": "1"
+        },
+        {
+          "serie_assistida": "3",
+          "tempo": "4,00:20:00",
+          "avaliacao": "5",
+          "usuario": "rafaextreme@gmail.com",
+          "ID_assistido": "2"
+        },
+        {
+          "serie_assistida": "4",
+          "tempo": "1:30:00",
+          "avaliacao": "3",
+          "usuario": "jovemnerd@hotmail.com",
+          "ID_assistido": "3"
+        },
+        {
+          "serie_assistida": "10",
+          "tempo": "2:00:00",
+          "avaliacao": "4",
+          "usuario": "julia@gmail.com",
+          "ID_assistido": "4"
+        },
+        {
+          "serie_assistida": "11",
+          "tempo": "1:30:00",
+          "avaliacao": "5",
+          "usuario": "julia@gmail.com",
+          "ID_assistido": "5"
+        },
+        {
+          "serie_assistida": "8",
+          "tempo": "2:00:00",
+          "avaliacao": "2",
+          "usuario": "ricardo@gmail.com",
+          "ID_assistido": "6"
+        },
+        {
+          "serie_assistida": "9",
+          "tempo": "2:00:00",
+          "avaliacao": "4",
+          "usuario": "ricardo@gmail.com",
+          "ID_assistido": "7"
+        },
+        {
+          "serie_assistida": "2",
+          "tempo": "2:00:00",
+          "avaliacao": "3",
+          "usuario": "ricardo@gmail.com",
+          "ID_assistido": "8"
+        },
+        {
+          "serie_assistida": "8",
+          "tempo": "2:00:00",
+          "avaliacao": "4",
+          "usuario": "matheus@gmail.com",
+          "ID_assistido": "9"
+        },
+        {
+          "serie_assistida": "9",
+          "tempo": "1:30:00",
+          "avaliacao": "5",
+          "usuario": "matheus@gmail.com",
+          "ID_assistido": "10"
+        }
+      ]
+    },
+    "series": {
+      "serie": [
+        {
+          "ID_serie": "1",
+          "nome": "Friends",
+          "avaliacao_geral": "5",
+          "indicacao": "18",
+          "categoria": "Comédia"
+        },
+        {
+          "ID_serie": "2",
+          "nome": "A Chegada",
+          "avaliacao_geral": "5",
+          "indicacao": "0",
+          "categoria": "Ficção Ciêntifica"
+        },
+        {
+          "ID_serie": "3",
+          "nome": "Full house",
+          "avaliacao_geral": "5",
+          "indicacao": "10",
+          "categoria": "Comédia"
+        },
+        {
+          "ID_serie": "4",
+          "nome": "Dark",
+          "avaliacao_geral": "5",
+          "indicacao": "16",
+          "categoria": "Ficção Ciêntifica"
+        },
+        {
+          "ID_serie": "5",
+          "nome": "One piece",
+          "avaliacao_geral": "5",
+          "indicacao": "10",
+          "categoria": "Anime"
+        },
+        {
+          "ID_serie": "6",
+          "nome": "Westworld",
+          "avaliacao_geral": "5",
+          "indicacao": "16",
+          "categoria": "Ficção Ciêntifica"
+        },
+        {
+          "ID_serie": "7",
+          "nome": "Madagascar 2",
+          "avaliacao_geral": "5",
+          "indicacao": "0",
+          "categoria": "Infantil"
+        },
+        {
+          "ID_serie": "8",
+          "nome": "Interestelar",
+          "avaliacao_geral": "5",
+          "indicacao": "12",
+          "categoria": "Ficção Ciêntifica"
+        },
+        {
+          "ID_serie": "9",
+          "nome": "transformers 1",
+          "avaliacao_geral": "4",
+          "indicacao": "14",
+          "categoria": "Ficção Ciêntifica"
+        },
+        {
+          "ID_serie": "10",
+          "nome": "blakcpanter",
+          "avaliacao_geral": "5",
+          "indicacao": "12",
+          "categoria": "Heroi"
+        },
+        {
+          "ID_serie": "11",
+          "nome": "cars 1",
+          "avaliacao_geral": "4",
+          "indicacao": "0",
+          "categoria": "Infantil"
+        },
+        {
+          "ID_serie": "12",
+          "nome": "desencantado",
+          "avaliacao_geral": "4",
+          "indicacao": "18",
+          "categoria": "Comédia"
+        },
+        {
+          "ID_serie": "13",
+          "nome": "Perdidos no Espaço",
+          "avaliacao_geral": "3",
+          "indicacao": "12",
+          "categoria": "Ficção Ciêntifica"
+        },
+        {
+          "ID_serie": "14",
+          "nome": "Anne with an e",
+          "avaliacao_geral": "5",
+          "indicacao": "16",
+          "categoria": "Drama"
+        },
+        {
+          "ID_serie": "15",
+          "nome": "Naruto",
+          "avaliacao_geral": "5",
+          "indicacao": "12",
+          "categoria": "Anime"
+        },
+        {
+          "ID_serie": "16",
+          "nome": "Code Geass",
+          "avaliacao_geral": "5",
+          "indicacao": "12",
+          "categoria": "Anime"
+        },
+        {
+          "ID_serie": "17",
+          "nome": "Kimi no nawa",
+          "avaliacao_geral": "5",
+          "indicacao": "16",
+          "categoria": "Anime"
+        },
+        {
+          "ID_serie": "18",
+          "nome": "Baby Driver",
+          "avaliacao_geral": "5",
+          "indicacao": "18",
+          "categoria": "Ação"
+        },
+        {
+          "ID_serie": "19",
+          "nome": "O jogo da imitação",
+          "avaliacao_geral": "5",
+          "indicacao": "14",
+          "categoria": "Histórico"
+        },
+        {
+          "ID_serie": "20",
+          "nome": "Um lugar silencioso",
+          "avaliacao_geral": "5",
+          "indicacao": "18",
+          "categoria": "Suspense"
+        }
+      ]
+    },
+    "filmes": {
+      "filme": [
+        {
+          "ID_serie": "2",
+          "duracao": "2:00:00",
+          "video": "A_CHEGADA.mp3\""
+        },
+        {
+          "ID_serie": "7",
+          "duracao": "1:30:00",
+          "video": "Madagascar2.mp3\""
+        },
+        {
+          "ID_serie": "8",
+          "duracao": "2:00:00",
+          "video": "INTERESTELAR.mp3\""
+        },
+        {
+          "ID_serie": "9",
+          "duracao": "2:00:00",
+          "video": "transformers1.mp3\""
+        },
+        {
+          "ID_serie": "10",
+          "duracao": "2:00:00",
+          "video": "blakcpanter.mp3\""
+        },
+        {
+          "ID_serie": "11",
+          "duracao": "1:30:00",
+          "video": "cars1.mp3\""
+        },
+        {
+          "ID_serie": "17",
+          "duracao": "2:00:00",
+          "video": "kiminonawa.mp3\""
+        },
+        {
+          "ID_serie": "18",
+          "duracao": "2:10:00",
+          "video": "babydriver.mp3\""
+        },
+        {
+          "ID_serie": "19",
+          "duracao": "2:00:00",
+          "video": "o_jogo_da_imitacao.mp3\""
+        },
+        {
+          "ID_serie": "20",
+          "duracao": "1:55:00",
+          "video": "um_lugar_silencioso.mp3\""
+        }
+      ]
+    },
+    "tv_series": {
+      "tv_serie": [
+        {
+          "ID_serie": "1",
+          "qtd_episodeos": "300"
+        },
+        {
+          "ID_serie": "3",
+          "qtd_episodeos": "500"
+        },
+        {
+          "ID_serie": "4",
+          "qtd_episodeos": "90"
+        },
+        {
+          "ID_serie": "5",
+          "qtd_episodeos": "800"
+        },
+        {
+          "ID_serie": "6",
+          "qtd_episodeos": "170"
+        },
+        {
+          "ID_serie": "12",
+          "qtd_episodeos": "50"
+        },
+        {
+          "ID_serie": "13",
+          "qtd_episodeos": "230"
+        },
+        {
+          "ID_serie": "14",
+          "qtd_episodeos": "60"
+        },
+        {
+          "ID_serie": "15",
+          "qtd_episodeos": "700"
+        },
+        {
+          "ID_serie": "16",
+          "qtd_episodeos": "50"
+        }
+      ]
+    },
+    "episodeos": {
+      "episodeo": [
+        {
+          "numero_do_ep": "1",
+          "duracao": "23:00",
+          "titulo_do_video": "Friends - o comeco.mp3",
+          "ID_serie": "1"
+        },
+        {
+          "numero_do_ep": "2",
+          "duracao": "23:00",
+          "titulo_do_video": "Friends - aquele da escada.mp3",
+          "ID_serie": "1"
+        },
+        {
+          "numero_do_ep": "3",
+          "duracao": "23:00",
+          "titulo_do_video": "Friends - aquele do dente do ross.mp3",
+          "ID_serie": "1"
+        },
+        {
+          "numero_do_ep": "4",
+          "duracao": "23:00",
+          "titulo_do_video": "Friends - aquele do gato.mp3",
+          "ID_serie": "1"
+        },
+        {
+          "numero_do_ep": "5",
+          "duracao": "23:00",
+          "titulo_do_video": "Friends - aquele da rachel promovida.mp3",
+          "ID_serie": "1"
+        },
+        {
+          "numero_do_ep": "6",
+          "duracao": "23:00",
+          "titulo_do_video": "Friends - aquele da nova garconete.mp3",
+          "ID_serie": "1"
+        },
+        {
+          "numero_do_ep": "7",
+          "duracao": "23:00",
+          "titulo_do_video": "Friends - aquele da novela do joey.mp3",
+          "ID_serie": "1"
+        },
+        {
+          "numero_do_ep": "8",
+          "duracao": "23:00",
+          "titulo_do_video": "Friends - aquele do vizinho de baixo.mp3",
+          "ID_serie": "1"
+        },
+        {
+          "numero_do_ep": "9",
+          "duracao": "23:00",
+          "titulo_do_video": "Friends - aquele do natal de 1994.mp3",
+          "ID_serie": "1"
+        },
+        {
+          "numero_do_ep": "10",
+          "duracao": "23:00",
+          "titulo_do_video": "Friends - aquele da creche.mp3",
+          "ID_serie": "1"
+        }
+      ]
+    }
+  }
+}

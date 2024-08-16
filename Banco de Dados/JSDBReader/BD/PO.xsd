@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="POGGERSTV">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Usuarios"/>
+                <xs:element ref="assistidos"/>
+                <xs:element ref="series"/>
+                <xs:element ref="filmes"/>
+                <xs:element ref="tv_series"/>
+                <xs:element ref="episodeos"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Usuarios">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="Usuario"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Usuario">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="idade"/>
+                <xs:element ref="nome"/>
+                <xs:element ref="sexo"/>
+                <xs:element ref="senha"/>
+                <xs:element ref="email"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="idade" type="xs:integer"/>
+    <xs:element name="sexo" type="xs:NCName"/>
+    <xs:element name="senha" type="xs:NMTOKEN"/>
+    <xs:element name="email" type="xs:string"/>
+    <xs:element name="assistidos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="assistido"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="assistido">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="serie_assistida"/>
+                <xs:element ref="tempo"/>
+                <xs:element ref="avaliacao"/>
+                <xs:element ref="usuario"/>
+                <xs:element ref="ID_assistido"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="serie_assistida" type="xs:integer"/>
+    <xs:element name="tempo" type="xs:string"/>
+    <xs:element name="avaliacao" type="xs:integer"/>
+    <xs:element name="usuario" type="xs:string"/>
+    <xs:element name="ID_assistido" type="xs:integer"/>
+    <xs:element name="series">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="serie"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="serie">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="ID_serie"/>
+                <xs:element ref="nome"/>
+                <xs:element ref="avaliacao_geral"/>
+                <xs:element ref="indicacao"/>
+                <xs:element ref="categoria"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="avaliacao_geral" type="xs:integer"/>
+    <xs:element name="indicacao" type="xs:integer"/>
+    <xs:element name="categoria" type="xs:string"/>
+    <xs:element name="filmes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="filme"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="filme">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="ID_serie"/>
+                <xs:element ref="duracao"/>
+                <xs:element ref="video"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="video" type="xs:string"/>
+    <xs:element name="tv_series">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="tv_serie"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="tv_serie">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="ID_serie"/>
+                <xs:element ref="qtd_episodeos"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="qtd_episodeos" type="xs:integer"/>
+    <xs:element name="episodeos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="episodeo"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="episodeo">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="numero_do_ep"/>
+                <xs:element ref="duracao"/>
+                <xs:element ref="titulo_do_video"/>
+                <xs:element ref="ID_serie"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="numero_do_ep" type="xs:integer"/>
+    <xs:element name="titulo_do_video" type="xs:string"/>
+    <xs:element name="nome" type="xs:string"/>
+    <xs:element name="ID_serie" type="xs:integer"/>
+    <xs:element name="duracao" type="xs:NMTOKEN"/>
+</xs:schema>

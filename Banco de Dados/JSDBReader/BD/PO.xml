@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE POGGERSTV [
+        <!ELEMENT POGGERSTV (Usuarios|assistidos|series|filmes|tv_series|episodeos)*>
+        <!ELEMENT Usuarios (Usuario)*>
+        <!ELEMENT Usuario (idade|nome|sexo|senha|email)*>
+        <!ELEMENT idade (#PCDATA)>
+        <!ELEMENT nome (#PCDATA)>
+        <!ELEMENT sexo (#PCDATA)>
+        <!ELEMENT senha (#PCDATA)>
+        <!ELEMENT email (#PCDATA)>
+        <!ELEMENT assistidos (assistido)*>
+        <!ELEMENT assistido (serie_assistida|tempo|avaliacao|usuario|ID_assistido)*>
+        <!ELEMENT serie_assistida (#PCDATA)>
+        <!ELEMENT tempo (#PCDATA)>
+        <!ELEMENT avaliacao (#PCDATA)>
+        <!ELEMENT usuario (#PCDATA)>
+        <!ELEMENT ID_assistido (#PCDATA)>
+        <!ELEMENT series (serie)*>
+        <!ELEMENT serie (ID_serie|nome|avaliacao_geral|indicacao|categoria)*>
+        <!ELEMENT ID_serie (#PCDATA)>
+        <!ELEMENT avaliacao_geral (#PCDATA)>
+        <!ELEMENT indicacao (#PCDATA)>
+        <!ELEMENT categoria (#PCDATA)>
+        <!ELEMENT filmes (filme)*>
+        <!ELEMENT filme (ID_serie|duracao|video)*>
+        <!ELEMENT duracao (#PCDATA)>
+        <!ELEMENT video (#PCDATA)>
+        <!ELEMENT tv_series (tv_serie)*>
+        <!ELEMENT tv_serie (ID_serie|qtd_episodeos)*>
+        <!ELEMENT qtd_episodeos (#PCDATA)>
+        <!ELEMENT episodeos (episodeo)*>
+        <!ELEMENT episodeo (numero_do_ep|duracao|titulo_do_video|ID_serie)*>
+        <!ELEMENT numero_do_ep (#PCDATA)>
+        <!ELEMENT titulo_do_video (#PCDATA)>
+        ]>
+<POGGERSTV>
+    <Usuarios>
+        <Usuario>
+            <idade>19</idade>
+            <nome>Matheus Almeida</nome>
+            <sexo>M</sexo>
+            <senha>654321</senha>
+            <email>matheus@gmail.com</email>
+        </Usuario>
+
+        <Usuario>
+            <idade>18</idade>
+            <nome>Mateus rosario</nome>
+            <sexo>M</sexo>
+            <senha>654321</senha>
+            <email>rosario@gmail.com</email>
+        </Usuario>
+
+        <Usuario>
+            <idade>150</idade>
+            <nome>Albus Dumbledore</nome>
+            <sexo>M</sexo>
+            <senha>harry123</senha>
+            <email>albuss@grifmail.com</email>
+        </Usuario>
+
+        <Usuario>
+            <idade>23</idade>
+            <nome>Maria Eduarda</nome>
+            <sexo>F</sexo>
+            <senha>543534</senha>
+            <email>duda123@gmail.com</email>
+        </Usuario>
+
+        <Usuario>
+            <idade>17</idade>
+            <nome>Rafaela santos</nome>
+            <sexo>F</sexo>
+            <senha>654334321</senha>
+            <email>santos@gmail.com</email>
+        </Usuario>
+
+        <Usuario>
+            <idade>12</idade>
+            <nome>Gabriel oliveira</nome>
+            <sexo>M</sexo>
+            <senha>suasenha33</senha>
+            <email>gabriel2018@hotmail.com</email>
+        </Usuario>
+        <Usuario>
+            <idade>34</idade>
+            <nome>Ricardo Souza</nome>
+            <sexo>M</sexo>
+            <senha>ourilandia3322</senha>
+            <email>ricardo@gmail.com</email>
+        </Usuario>
+
+        <Usuario>
+            <idade>26</idade>
+            <nome>Julia Alencar</nome>
+            <sexo>F</sexo>
+            <senha>julia2015</senha>
+            <email>julia@gmail.com</email>
+        </Usuario>
+
+        <Usuario>
+            <idade>15</idade>
+            <nome>Rafael silva</nome>
+            <sexo>M</sexo>
+            <senha>12345679</senha>
+            <email>rafaextreme@gmail.com</email>
+        </Usuario>
+
+        <Usuario>
+            <idade>20</idade>
+            <nome>Alexandre Ottoni</nome>
+            <sexo>M</sexo>
+            <senha>labdalabda</senha>
+            <email>jovemnerd@hotmail.com</email>
+        </Usuario>
+
+    </Usuarios>
+
+    <assistidos>
+
+        <assistido>
+            <serie_assistida>2</serie_assistida>
+            <tempo>2:00:00</tempo>
+            <avaliacao>4</avaliacao>
+            <usuario>matheus@gmail.com</usuario>
+            <ID_assistido>1</ID_assistido>
+        </assistido>
+
+        <assistido>
+            <serie_assistida>3</serie_assistida>
+            <tempo>4,00:20:00</tempo>
+            <avaliacao>5</avaliacao>
+            <usuario>rafaextreme@gmail.com</usuario>
+            <ID_assistido>2</ID_assistido>
+        </assistido>
+
+        <assistido>
+            <serie_assistida>4</serie_assistida>
+            <tempo>1:30:00</tempo>
+            <avaliacao>3</avaliacao>
+            <usuario>jovemnerd@hotmail.com</usuario>
+            <ID_assistido>3</ID_assistido>
+        </assistido>
+
+        <assistido>
+            <serie_assistida>10</serie_assistida>
+            <tempo>2:00:00</tempo>
+            <avaliacao>4</avaliacao>
+            <usuario>julia@gmail.com</usuario>
+            <ID_assistido>4</ID_assistido>
+        </assistido>
+
+        <assistido>
+            <serie_assistida>11</serie_assistida>
+            <tempo>1:30:00</tempo>
+            <avaliacao>5</avaliacao>
+            <usuario>julia@gmail.com</usuario>
+            <ID_assistido>5</ID_assistido>
+        </assistido>
+
+        <assistido>
+            <serie_assistida>8</serie_assistida>
+            <tempo>2:00:00</tempo>
+            <avaliacao>2</avaliacao>
+            <usuario>ricardo@gmail.com</usuario>
+            <ID_assistido>6</ID_assistido>
+        </assistido>
+
+        <assistido>
+            <serie_assistida>9</serie_assistida>
+            <tempo>2:00:00</tempo>
+            <avaliacao>4</avaliacao>
+            <usuario>ricardo@gmail.com</usuario>
+            <ID_assistido>7</ID_assistido>
+        </assistido>
+
+        <assistido>
+            <serie_assistida>2</serie_assistida>
+            <tempo>2:00:00</tempo>
+            <avaliacao>3</avaliacao>
+            <usuario>ricardo@gmail.com</usuario>
+            <ID_assistido>8</ID_assistido>
+        </assistido>
+
+        <assistido>
+            <serie_assistida>8</serie_assistida>
+            <tempo>2:00:00</tempo>
+            <avaliacao>4</avaliacao>
+            <usuario>matheus@gmail.com</usuario>
+            <ID_assistido>9</ID_assistido>
+        </assistido>
+
+        <assistido>
+            <serie_assistida>9</serie_assistida>
+            <tempo>1:30:00</tempo>
+            <avaliacao>5</avaliacao>
+            <usuario>matheus@gmail.com</usuario>
+            <ID_assistido>10</ID_assistido>
+        </assistido>
+    </assistidos>
+
+    <series>
+        <serie>
+            <ID_serie>1</ID_serie>
+            <nome>Friends</nome>
+            <avaliacao_geral>5</avaliacao_geral>
+            <indicacao>18</indicacao>
+            <categoria>Comédia</categoria>
+        </serie>
+        <serie>
+            <ID_serie>2</ID_serie>
+            <nome>A Chegada</nome>
+            <avaliacao_geral>5</avaliacao_geral>
+            <indicacao>0</indicacao>
+            <categoria>Ficção Ciêntifica</categoria>
+        </serie>
+        <serie>
+            <ID_serie>3</ID_serie>
+            <nome>Full house</nome>
+            <avaliacao_geral>5</avaliacao_geral>
+            <indicacao>10</indicacao>
+            <categoria>Comédia</categoria>
+        </serie>
+        <serie>
+            <ID_serie>4</ID_serie>
+            <nome>Dark</nome>
+            <avaliacao_geral>5</avaliacao_geral>
+            <indicacao>16</indicacao>
+            <categoria>Ficção Ciêntifica</categoria>
+        </serie>
+        <serie>
+            <ID_serie>5</ID_serie>
+            <nome>One piece</nome>
+            <avaliacao_geral>5</avaliacao_geral>
+            <indicacao>10</indicacao>
+            <categoria>Anime</categoria>
+        </serie>
+        <serie>
+            <ID_serie>6</ID_serie>
+            <nome>Westworld</nome>
+            <avaliacao_geral>5</avaliacao_geral>
+            <indicacao>16</indicacao>
+            <categoria>Ficção Ciêntifica</categoria>
+        </serie>
+        <serie>
+            <ID_serie>7</ID_serie>
+            <nome>Madagascar 2</nome>
+            <avaliacao_geral>5</avaliacao_geral>
+            <indicacao>0</indicacao>
+            <categoria>Infantil</categoria>
+        </serie>
+        <serie>
+            <ID_serie>8</ID_serie>
+            <nome>Interestelar</nome>
+            <avaliacao_geral>5</avaliacao_geral>
+            <indicacao>12</indicacao>
+            <categoria>Ficção Ciêntifica</categoria>
+        </serie>
+        <serie>
+            <ID_serie>9</ID_serie>
+            <nome>transformers 1</nome>
+            <avaliacao_geral>4</avaliacao_geral>
+            <indicacao>14</indicacao>
+            <categoria>Ficção Ciêntifica</categoria>
+        </serie>
+	    <serie>
+            <ID_serie>10</ID_serie>
+            <nome>blakcpanter</nome>
+            <avaliacao_geral>5</avaliacao_geral>
+            <indicacao>12</indicacao>
+            <categoria>Heroi</categoria>
+        </serie>
+	    <serie>
+            <ID_serie>11</ID_serie>
+            <nome>cars 1</nome>
+            <avaliacao_geral>4</avaliacao_geral>
+            <indicacao>0</indicacao>
+            <categoria>Infantil</categoria>
+        </serie>
+	    <serie>
+            <ID_serie>12</ID_serie>
+            <nome>desencantado</nome>
+            <avaliacao_geral>4</avaliacao_geral>
+            <indicacao>18</indicacao>
+            <categoria>Comédia</categoria>
+        </serie>
+        <serie>
+            <ID_serie>13</ID_serie>
+            <nome>Perdidos no Espaço</nome>
+            <avaliacao_geral>3</avaliacao_geral>
+            <indicacao>12</indicacao>
+            <categoria>Ficção Ciêntifica</categoria>
+        </serie>
+        <serie>
+            <ID_serie>14</ID_serie>
+            <nome>Anne with an e</nome>
+            <avaliacao_geral>5</avaliacao_geral>
+            <indicacao>16</indicacao>
+            <categoria>Drama</categoria>
+        </serie>
+        <serie>
+            <ID_serie>15</ID_serie>
+            <nome>Naruto</nome>
+            <avaliacao_geral>5</avaliacao_geral>
+            <indicacao>12</indicacao>
+            <categoria>Anime</categoria>
+        </serie>
+        <serie>
+            <ID_serie>16</ID_serie>
+            <nome>Code Geass</nome>
+            <avaliacao_geral>5</avaliacao_geral>
+            <indicacao>12</indicacao>
+            <categoria>Anime</categoria>
+        </serie>
+        <serie>
+            <ID_serie>17</ID_serie>
+            <nome>Kimi no nawa</nome>
+            <avaliacao_geral>5</avaliacao_geral>
+            <indicacao>16</indicacao>
+            <categoria>Anime</categoria>
+        </serie>
+        <serie>
+            <ID_serie>18</ID_serie>
+            <nome>Baby Driver</nome>
+            <avaliacao_geral>5</avaliacao_geral>
+            <indicacao>18</indicacao>
+            <categoria>Ação</categoria>
+        </serie>
+        <serie>
+            <ID_serie>19</ID_serie>
+            <nome>O jogo da imitação</nome>
+            <avaliacao_geral>5</avaliacao_geral>
+            <indicacao>14</indicacao>
+            <categoria>Histórico</categoria>
+        </serie>
+        <serie>
+            <ID_serie>20</ID_serie>
+            <nome>Um lugar silencioso</nome>
+            <avaliacao_geral>5</avaliacao_geral>
+            <indicacao>18</indicacao>
+            <categoria>Suspense</categoria>
+        </serie>
+    </series>
+
+    <filmes>
+
+        <filme>
+            <ID_serie>2</ID_serie>
+            <duracao>2:00:00</duracao>
+            <video>A_CHEGADA.mp3"</video>
+        </filme>
+
+        <filme>
+            <ID_serie>7</ID_serie>
+            <duracao>1:30:00</duracao>
+            <video>Madagascar2.mp3"</video>
+        </filme>
+
+        <filme>
+            <ID_serie>8</ID_serie>
+            <duracao>2:00:00</duracao>
+            <video>INTERESTELAR.mp3"</video>
+        </filme>
+	<filme>
+            <ID_serie>9</ID_serie>
+            <duracao>2:00:00</duracao>
+            <video>transformers1.mp3"</video>
+        </filme>
+	<filme>
+            <ID_serie>10</ID_serie>
+            <duracao>2:00:00</duracao>
+            <video>blakcpanter.mp3"</video>
+        </filme>
+	<filme>
+            <ID_serie>11</ID_serie>
+            <duracao>1:30:00</duracao>
+            <video>cars1.mp3"</video>
+        </filme>
+	<filme>
+            <ID_serie>17</ID_serie>
+            <duracao>2:00:00</duracao>
+            <video>kiminonawa.mp3"</video>
+        </filme>
+
+        <filme>
+            <ID_serie>18</ID_serie>
+            <duracao>2:10:00</duracao>
+            <video>babydriver.mp3"</video>
+        </filme>
+        <filme>
+            <ID_serie>19</ID_serie>
+            <duracao>2:00:00</duracao>
+            <video>o_jogo_da_imitacao.mp3"</video>
+        </filme>
+
+        <filme>
+            <ID_serie>20</ID_serie>
+            <duracao>1:55:00</duracao>
+            <video>um_lugar_silencioso.mp3"</video>
+        </filme>
+    </filmes>
+
+    <tv_series>
+
+        <tv_serie>
+            <ID_serie>1</ID_serie>
+            <qtd_episodeos>300</qtd_episodeos>
+        </tv_serie>
+	<tv_serie>
+            <ID_serie>3</ID_serie>
+            <qtd_episodeos>500</qtd_episodeos>
+        </tv_serie>
+	<tv_serie>
+            <ID_serie>4</ID_serie>
+            <qtd_episodeos>90</qtd_episodeos>
+        </tv_serie>
+	<tv_serie>
+            <ID_serie>5</ID_serie>
+            <qtd_episodeos>800</qtd_episodeos>
+        </tv_serie>
+	<tv_serie>
+            <ID_serie>6</ID_serie>
+            <qtd_episodeos>170</qtd_episodeos>
+        </tv_serie>
+	<tv_serie>
+            <ID_serie>12</ID_serie>
+            <qtd_episodeos>50</qtd_episodeos>
+        </tv_serie>
+        <tv_serie>
+            <ID_serie>13</ID_serie>
+            <qtd_episodeos>230</qtd_episodeos>
+        </tv_serie>
+        <tv_serie>
+            <ID_serie>14</ID_serie>
+            <qtd_episodeos>60</qtd_episodeos>
+        </tv_serie>
+        <tv_serie>
+            <ID_serie>15</ID_serie>
+            <qtd_episodeos>700</qtd_episodeos>
+        </tv_serie>
+        <tv_serie>
+            <ID_serie>16</ID_serie>
+            <qtd_episodeos>50</qtd_episodeos>
+        </tv_serie>
+    </tv_series>
+
+    <episodeos>
+
+        <episodeo>
+            <numero_do_ep>1</numero_do_ep>
+            <duracao>23:00</duracao>
+            <titulo_do_video>Friends - o comeco.mp3</titulo_do_video>
+            <ID_serie>1</ID_serie>
+        </episodeo>
+
+        <episodeo>
+            <numero_do_ep>2</numero_do_ep>
+            <duracao>23:00</duracao>
+            <titulo_do_video>Friends - aquele da escada.mp3</titulo_do_video>
+            <ID_serie>1</ID_serie>
+        </episodeo>
+
+        <episodeo>
+            <numero_do_ep>3</numero_do_ep>
+            <duracao>23:00</duracao>
+            <titulo_do_video>Friends - aquele do dente do ross.mp3</titulo_do_video>
+            <ID_serie>1</ID_serie>
+        </episodeo>
+
+        <episodeo>
+            <numero_do_ep>4</numero_do_ep>
+            <duracao>23:00</duracao>
+            <titulo_do_video>Friends - aquele do gato.mp3</titulo_do_video>
+            <ID_serie>1</ID_serie>
+        </episodeo>
+
+        <episodeo>
+            <numero_do_ep>5</numero_do_ep>
+            <duracao>23:00</duracao>
+            <titulo_do_video>Friends - aquele da rachel promovida.mp3</titulo_do_video>
+            <ID_serie>1</ID_serie>
+        </episodeo>
+
+        <episodeo>
+            <numero_do_ep>6</numero_do_ep>
+            <duracao>23:00</duracao>
+            <titulo_do_video>Friends - aquele da nova garconete.mp3</titulo_do_video>
+            <ID_serie>1</ID_serie>
+        </episodeo>
+
+        <episodeo>
+            <numero_do_ep>7</numero_do_ep>
+            <duracao>23:00</duracao>
+            <titulo_do_video>Friends - aquele da novela do joey.mp3</titulo_do_video>
+            <ID_serie>1</ID_serie>
+        </episodeo>
+
+        <episodeo>
+            <numero_do_ep>8</numero_do_ep>
+            <duracao>23:00</duracao>
+            <titulo_do_video>Friends - aquele do vizinho de baixo.mp3</titulo_do_video>
+            <ID_serie>1</ID_serie>
+        </episodeo>
+
+        <episodeo>
+            <numero_do_ep>9</numero_do_ep>
+            <duracao>23:00</duracao>
+            <titulo_do_video>Friends - aquele do natal de 1994.mp3</titulo_do_video>
+            <ID_serie>1</ID_serie>
+        </episodeo>
+
+        <episodeo>
+            <numero_do_ep>10</numero_do_ep>
+            <duracao>23:00</duracao>
+            <titulo_do_video>Friends - aquele da creche.mp3</titulo_do_video>
+            <ID_serie>1</ID_serie>
+        </episodeo>
+    </episodeos>
+
+</POGGERSTV>

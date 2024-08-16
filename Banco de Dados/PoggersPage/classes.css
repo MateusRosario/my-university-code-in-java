@@ -1,0 +1,18 @@
+.separate {
+    position: relative;
+    right: 2%;
+}
+
+.colorRed {
+    color: red;
+}
+
+.tumb{
+    width: 310px;
+    height: 200px;
+}
+
+.text_tumb{
+    font-family: SansSerif;
+    color: #005cbf;
+}
